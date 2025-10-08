@@ -6,7 +6,7 @@ def load_data():
     DBNAME = ""  # your database name
     engine = create_engine(f"+://{}:{}@{}:{}/{}")
     # Example connection (Postgres)
-    #engine = create_engine("postgresql://user:password@localhost:5432/hospital_db")
+    #engine = create_engine("postgresql://user:password@localhost:****/hospital_db")
 
     bills = pd.read_sql("SELECT * FROM bills", engine)
     patients = pd.read_sql("SELECT * FROM patients", engine)
@@ -141,3 +141,4 @@ if __name__ == "__main__":
 
     # Run analysis
     run_analysis(bills, patients, staff, departments, appointments, beds)
+
