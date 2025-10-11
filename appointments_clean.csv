@@ -1,0 +1,6 @@
+appointment_id,patient_id,staff_id,bed_id,department_id,appointment_date,reason
+1,1,1,1.0,1,2025-06-01 10:30:00,Chest pain checkup
+2,2,2,2.0,1,2025-06-03 14:00:00,Routine observation
+3,3,3,,2,2025-05-21 09:00:00,Neurological exam
+4,4,5,4.0,3,2025-06-10 11:15:00,Post-surgery check
+5,5,6,5.0,4,2025-06-11 13:00:00,Fever and cough

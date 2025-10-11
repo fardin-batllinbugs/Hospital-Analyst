@@ -1,0 +1,6 @@
+patient_id,name,gender,age,department_id,admission_date,discharge_date,stay_days
+1,John Doe,Male,58,1,2025-06-01,2025-06-08,7.0
+2,Alice Smith,Female,72,1,2025-06-03,,
+3,Mike Brown,Male,45,2,2025-05-21,2025-06-02,12.0
+4,Emma Davis,Female,33,3,2025-06-10,2025-06-14,4.0
+5,Noah Wilson,Male,9,4,2025-06-11,,

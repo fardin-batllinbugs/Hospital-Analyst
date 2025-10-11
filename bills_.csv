@@ -1,0 +1,6 @@
+bill_id,appointment_id,department_id,patient_id,total_amount,amount_paid,payment_date,payment_status
+1,1,1,1,1200.0,1200.0,2025-06-08,paid
+2,2,1,2,850.0,400.0,2025-06-05,partial
+3,3,2,3,1500.0,1500.0,2025-06-02,paid
+4,4,3,4,2200.0,0.0,,pending
+5,5,4,5,600.0,600.0,2025-06-13,paid
